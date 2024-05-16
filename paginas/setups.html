@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MarsWave</title>
+        <!--CSS-->
     <link rel="stylesheet" href="../estilocss/estilo.css">
+        <!--CSS Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body class="setup-body">
 
@@ -29,24 +32,50 @@
             <div class="header-txt">
                 <h1>Bienvenido a SetUps</h1>
                 <p>
-                    En este apartado encontraras imagenes de distintos estilos de set up que puedes utilizar de inspiración para mejorar tu espacio de trabajo.
+                    Explorar esta galería es sumergirse en un universo de posibilidades donde la eficiencia se encuentra con la estética. Desde los rincones más acogedores hasta los espacios más vanguardistas, cada imagen invita a los espectadores a imaginar sus propios espacios de trabajo ideales. Más allá de ser simplemente configuraciones técnicas, estas fotos capturan la esencia de cómo la tecnología y el diseño se entrelazan para crear entornos que inspiran, motivan y reflejan la individualidad de quienes los habitan.
                 </p>
             </div>
         </div>
     </header>
 
-    <main class="main-galeria">
-        <div class="about-img">
-            <img src="../img/galeria set up 7.jpeg" alt="imagen de Setup ejemplo">
-        </div>
-        <div class="about-img">
-            <img src="../img/galeria set up 4.jpg" alt="imagen de Setup ejemplo">
-        </div>
-        <div class="about-img">
-            <img src="../img/Setup inicio.jpg" alt="imagen de Setup ejemplo">
-        </div>
-        <div class="about-img">
-            <img src="../img/set up adam.jpg" alt="imagen de Setup ejemplo">
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/galeria para setups 1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SetUp Dark</h5>
+                        <p>Un estilo dark combinado con naranja pero adaptado a productividad.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/set up adam.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SetUp De Productividad</h5>
+                        <p>Un estilo ideal para el trabajo o estudio.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/galeria para setups 3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SetUp Con Laptop</h5>
+                        <p>Este setup es de los mas usados por los programadores.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </main>
 
@@ -91,5 +120,7 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!--Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
