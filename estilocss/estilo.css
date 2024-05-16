@@ -93,10 +93,11 @@ img {
     line-height: 1;
     color: white;
     font-family: 'Bebas Neue', sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 p {
+    font-family: 'Poppins', sans-serif;
     font-size: 17px;
     color: white;
     margin-bottom: 35px;
