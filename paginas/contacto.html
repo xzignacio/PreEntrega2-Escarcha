@@ -37,18 +37,24 @@
     </header>
 
     <main class="main-contacto">
-        <div class="container-form">
-            <div class="info-form">
-                <h2 class="container-form-h2">Contactanos</h2>
-                <p class="container-form-p">Aquí podrás mandar tu mensaje para poder aclarar tus dudas, esperamos tu mensaje.</p>
+        <form class="form-contacto">
+
+            <h2 class="h2-contacto">Contacto</h2>
+
+            <div class="form-txt">
+                <a href="#">Politica de privacidad</a>
+                <a href="#">Terminos y condiciones</a>
             </div>
-            <form action="#" autocomplete="off" class="formulario">
-                <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo">
-                <input type="email" name="email" placeholder="Ingresa tu correo" class="campo">
-                <textarea name="Mensaje" placeholder="Ingresa tu mensaje"></textarea>
-                <input type="submit" name="Enviar" value="Enviar Mensaje" class="btn-enviar">
-            </form>
-        </div>
+
+            <div class="input-contacto">
+                <input type="text" name="Nombre" placeholder="Nombre">
+                <input type="tel" name="Telefono" placeholder="Telefono">
+                <input type="email" name="Correo" placeholder="Correo">
+                <textarea name="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                <input class="btn-2" type="submit" value="Enviar">
+            </div>
+
+        </form>
     </main>
 
     <footer class="footer">
