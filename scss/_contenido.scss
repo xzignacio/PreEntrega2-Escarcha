@@ -1,0 +1,292 @@
+/*Contenido*/
+
+@mixin hr {
+    border: 1px solid $color-custom;
+    margin-bottom: 30px;
+}
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: $color-blanco;
+    margin-bottom: 35px;
+}
+
+.about {
+    padding: 100px 0;
+    background-color: $color-negro;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-txt {
+    flex-basis: 50%;
+    padding-right: 35px;
+}
+
+span {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $color-custom;
+}
+
+h2 {
+    font-size: 35px;
+    color: $color-blanco;
+    margin: 15px 0;
+    line-height: 1;
+}
+
+hr {
+    @include hr;
+    width: 50%;
+}
+
+.hr-2 {
+    @include hr;
+    width: 75%;
+}
+
+.hr-3 {
+    @include hr;
+    width: 57%;
+}
+
+.hr-4 {
+    @include hr;
+    width: 68%;
+}
+
+.hr-5 {
+    @include hr;
+    width: 41%;
+}
+
+.hr-6 {
+    @include hr;
+    width: 74%;
+}
+
+.hr-7 {
+    @include hr;
+    width: 33%;
+}
+
+.about-img {
+    flex-basis: 50%;
+
+    img {
+        border-radius: 15px;
+    }
+}
+
+/*Contenido De Cuenta y Contacto*/
+
+.main-galeria {
+    background-color: $color-negro;
+}
+
+.main-cuenta {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: $color-negro;
+}
+
+.form-cuenta {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    background-color: $color-custom;
+}
+
+.h2-cuenta {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: $color-blanco;
+    margin-bottom: 25px;
+}
+
+.label-cuenta,
+.p-cuenta {
+    font-size: 17px;
+    color: $color-blanco;
+    margin-bottom: 10px;
+}
+
+.input-cuenta {
+    padding: 17px 11px;
+    border: 1px solid $color-negro;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    background-color: $color-blanco;
+    outline: none;
+    color: $color-negro;
+    font-size: 17px;
+}
+
+.btn-1 {
+    background-color: $color-custom;
+    font-size: 15px;
+    color: $color-blanco;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color-negro;
+        color: $color-blanco;
+    }
+}
+
+.recordar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.main-contacto {
+    background-color: $color-negro;
+}
+
+.container-form {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    color: $color-blanco;
+}
+
+.container-form-h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: $color-blanco;
+}
+
+.container-form-p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: $color-blanco;
+}
+
+.container-form form .campo,
+textarea {
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid $color-custom;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.container-form {
+    textarea {
+        max-width: 530px;
+        min-width: 530px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+
+    .btn-enviar {
+        padding: 15px;
+        font-size: 16px;
+        border: none;
+        outline: 0px;
+        background-color: $color-custom;
+        color: $color-blanco;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: all 300ms ease;
+
+        &:hover {
+            background-color: $color-blanco;
+        }
+    }
+}
+
+.main-contacto {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-negro;
+}
+
+.form-contacto {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    background-color: $color-custom;
+}
+
+.h2-contacto {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: $color-blanco;
+    margin-bottom: 25px;
+}
+
+.form-txt {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        color: $color-blanco;
+        text-decoration: none;
+        font-size: 15px;
+        margin-bottom: 25px;
+
+        &:hover {
+            color: $color-negro;
+        }
+    }
+}
+
+.input-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    background-color: $color-blanco;
+    padding: 20px 14px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    color: $color-negro;
+}
+
+::placeholder {
+    color: $color-negro;
+    font-size: 15px;
+}
+
+.btn-2 {
+    background-color: $color-blanco;
+    color: $color-negro;
+    font-size: 17px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color-negro;
+        color: $color-blanco;
+    }
+}
