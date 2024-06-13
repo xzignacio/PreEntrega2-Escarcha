@@ -60,10 +60,87 @@
     }
 }
 
-/*Responsive en Celulares*/
+/*Responsive en Celulares intermedios*/
 @media (max-width: 915px) {
     .menu {
         padding: 20px;
+
+        label {
+            display: initial;
+        }
+
+        .navbar {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: $color-custom;
+            display: none;
+
+            ul li {
+                width: 100%;
+
+                a:hover {
+                    color: $color-negro;
+                }
+            }
+        }
+    }
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+        padding: 100px 30px;
+    }
+
+    .header-txt {
+        text-align: center;
+        padding: 0;
+    }
+
+    .about {
+        padding: 30px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .form-cuenta {
+        width: 70%;
+        text-align: center;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .main-contacto {
+        padding: 30px;
+    }
+
+    .form-contacto {
+        width: 70%;
+    }
+
+    .form-txt a {
+        font-size: 10px;
+        margin-bottom: 25px;
+    }
+
+    .h2-contacto {
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+/*Responsive en Celulares pequeños*/
+@media (max-width: 480px) {
+    .menu {
+        padding: 10px;
 
         label {
             display: initial;
