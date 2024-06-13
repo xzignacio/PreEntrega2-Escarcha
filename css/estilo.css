@@ -617,6 +617,14 @@ textarea {
   .footer {
     text-align: center;
   }
+  .social-icon {
+    text-align: center;
+    flex-direction: column;
+  }
+  .menu-2 {
+    text-align: center;
+    flex-direction: column;
+  }
   .main-contacto {
     padding: 50px;
     width: 100%;
@@ -626,13 +634,13 @@ textarea {
   }
   .form-txt a {
     font-size: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
     flex-direction: column;
   }
   .h2-contacto {
     text-align: center;
-    font-size: 15px;
+    font-size: 22px;
     flex-direction: column;
   }
 }

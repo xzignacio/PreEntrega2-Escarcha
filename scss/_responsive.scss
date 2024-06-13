@@ -211,6 +211,16 @@
         text-align: center;
     }
 
+    .social-icon {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .menu-2 {
+        text-align: center;
+        flex-direction: column;
+    }
+
     .main-contacto {
         padding: 50px;
         width: 100%;
@@ -229,7 +239,7 @@
 
     .h2-contacto {
         text-align: center;
-        font-size: 20px;
+        font-size: 22px;
         flex-direction: column;
     }
 }
