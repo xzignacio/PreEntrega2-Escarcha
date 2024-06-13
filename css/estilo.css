@@ -85,7 +85,7 @@ font-family: 'Poppins', sans-serif;
   padding: 0 200px;
 }
 .header-txt h1 {
-  font-size: 75px;
+  font-size: 85px;
   line-height: 1;
   color: white;
   font-family: "Bebas Neue", sans-serif;
@@ -529,6 +529,9 @@ textarea {
     text-align: center;
     padding: 0;
   }
+  .header-txt h1 {
+    font-size: 60px;
+  }
   .about {
     padding: 30px;
   }
@@ -591,6 +594,9 @@ textarea {
     text-align: center;
     padding: 0;
   }
+  .header-txt h1 {
+    font-size: 60px;
+  }
   .about {
     padding: 30px;
   }
@@ -598,17 +604,24 @@ textarea {
     flex-direction: column;
   }
   .form-cuenta {
-    width: 70%;
+    width: 100%;
+    text-align: center;
+  }
+  .p-cuenta {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px;
     text-align: center;
   }
   .footer {
     text-align: center;
   }
   .main-contacto {
-    padding: 30px;
+    padding: 10px;
+    width: 100%;
   }
   .form-contacto {
-    width: 70%;
+    width: 100%;
   }
   .form-txt a {
     font-size: 10px;
@@ -616,7 +629,7 @@ textarea {
   }
   .h2-contacto {
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
   }
 }
 

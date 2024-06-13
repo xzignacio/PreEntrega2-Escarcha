@@ -99,6 +99,10 @@
     .header-txt {
         text-align: center;
         padding: 0;
+
+        h1 {
+            font-size: 60px;
+        }
     }
 
     .about {
@@ -176,6 +180,10 @@
     .header-txt {
         text-align: center;
         padding: 0;
+
+        h1 {
+            font-size: 60px;
+        }
     }
 
     .about {
@@ -187,7 +195,14 @@
     }
 
     .form-cuenta {
-        width: 70%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .p-cuenta {
+        font-size: 15px;
+        color: white;
+        margin-bottom: 10px;
         text-align: center;
     }
 
@@ -196,20 +211,22 @@
     }
 
     .main-contacto {
-        padding: 30px;
+        padding: 10px;
+        width: 100%;
     }
 
     .form-contacto {
-        width: 70%;
+        width: 100%;
     }
 
     .form-txt a {
         font-size: 10px;
         margin-bottom: 25px;
+        text-align: center;
     }
 
     .h2-contacto {
         text-align: center;
-        font-size: 25px;
+        font-size: 15px;
     }
 }
